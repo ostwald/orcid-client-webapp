@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<!-- 
+	web.xml deployment descriptor for the NCAR Library CitableURL resolver (resolver) application.
+-->	
+	
+<web-app>	
+				
+	<display-name>ORCID webapp (v@VERSION@)</display-name>
+
+	<context-param>        
+		<param-name>debug</param-name>
+		<param-value>false</param-value>
+		<description>Indicates whether or not debugging messages will
+		be output to standard out. Must be [true | false].
+		</description>
+	</context-param>
+
+    <context-param>
+        <param-name>googleClientId</param-name>
+        <param-value>@ORCID_CLIENT_ID@</param-value>
+        <description>
+        </description>
+    </context-param>
+
+    <context-param>
+        <param-name>googleClientSecret</param-name>
+        <param-value>@ORCID_CLIENT_SECRET@</param-value>
+        <description>
+        </description>
+    </context-param>
+
+    <context-param>
+        <param-name>googleCallbackUri</param-name>
+        <param-value>@ORCID_CALLBACK_URI@</param-value>
+        <description>
+        </description>
+    </context-param>
+
+    <context-param>
+        <param-name>googleCredentialStore</param-name>
+        <param-value>@CREDENTIAL_STORE@</param-value>
+        <description>
+        </description>
+    </context-param>
+
+    <servlet>
+        <servlet-name>ORCIDServlet</servlet-name>
+        <description>Initializes a ORCIDServlet instance</description>
+        <servlet-class>org.iis.orcid.ORCIDServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <!-- Standard Struts Action Servlet Configuration -->
+ 	<servlet>  
+		<servlet-name>action</servlet-name>  
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>  
+		<init-param>  
+		  <param-name>application</param-name>  
+		  <param-value>ApplicationResources</param-value>  
+		</init-param> 	
+ 		<init-param>  
+		  <param-name>config</param-name>  
+		  <param-value>/WEB-INF/struts-config.xml</param-value>  
+		</init-param>  
+		<init-param>  
+		  <param-name>validate</param-name>  
+		  <param-value>true</param-value>  
+		</init-param>  
+		<init-param>  
+		  <param-name>debug</param-name>  
+		  <param-value>0</param-value>  
+		</init-param>  
+		<init-param>  
+		  <param-name>detail</param-name>  
+		  <param-value>0</param-value>  
+		</init-param> 
+		<load-on-startup>3</load-on-startup>  
+	</servlet>
+
+    <!-- Standard Action Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>action</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+
+	<!-- Define maximum session timeout -->
+	<session-config>
+		<session-timeout>45</session-timeout>
+	</session-config>
+	
+	<!-- The Usual Welcome File List -->  
+	<welcome-file-list>  
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>  
+	
+	<!-- Define pages to display errors -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/error_pages/error_page_404.jsp</location>
+	</error-page>
+	<error-page>
+		<!-- Custom 401 works in TC 5.0 but not 5.5.12 -->
+		<error-code>401</error-code>
+		<location>/WEB-INF/error_pages/error_page_401.jsp</location>
+	</error-page>
+
+	<!-- These error pages commented out for debugging -->	
+<!-- 	<error-page>
+		<error-code>500</error-code>
+		<location>/WEB-INF/error_pages/error_page_500.jsp</location>
+	</error-page>	
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/WEB-INF/error_pages/error_page_500.jsp</location>
+	</error-page> -->
+
+	  <!-- JSP Tag Library Descriptors -->  
+<!--   <taglib>  
+    <taglib-uri>/WEB-INF/tlds/struts-bean.tld</taglib-uri>  
+    <taglib-location>/WEB-INF/tlds/struts-bean.tld</taglib-location>  
+  </taglib>  
+  
+  <taglib>  
+    <taglib-uri>/WEB-INF/tlds/struts-html.tld</taglib-uri>  
+    <taglib-location>/WEB-INF/tlds/struts-html.tld</taglib-location>  
+  </taglib>  
+  
+  <taglib>  
+    <taglib-uri>/WEB-INF/tlds/struts-logic.tld</taglib-uri>  
+    <taglib-location>/WEB-INF/tlds/struts-logic.tld</taglib-location>  
+  </taglib>  
+ 
+  <taglib>  
+    <taglib-uri>/WEB-INF/tlds/response.tld</taglib-uri>  
+    <taglib-location>/WEB-INF/tlds/response.tld</taglib-location>  
+  </taglib> 
+  
+  <taglib>  
+    <taglib-uri>/WEB-INF/tlds/request.tld</taglib-uri>  
+    <taglib-location>/WEB-INF/tlds/request.tld</taglib-location>  
+  </taglib>    
+  
+  <taglib>  
+    <taglib-uri>/WEB-INF/tlds/datetime.tld</taglib-uri>  
+    <taglib-location>/WEB-INF/tlds/datetime.tld</taglib-location>  
+  </taglib> -->
+	
+</web-app>

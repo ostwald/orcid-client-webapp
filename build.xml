@@ -1,0 +1,490 @@
+ <!--  
+	Ant build file for the DLESE Discovery System (DDS) and DLESE search Web service server.
+	
+	$Id: build.xml,v 1.114 2006/08/22 18:44:02 jweather Exp $
+	
+	Instructions for building this software:   
+	
+	This project depends upon the dlese-tools-project, dlese-shared-project and
+	vocab-ui-project. An updated copy of these projects must reside at the same level
+	as this project prior to executing the ant targets below. This build
+	will call the necessary targets in those other projects for you.
+	
+	To build this software you must install Ant on your local system.
+	For information about installing and using Ant, go to http://jakarta.apache.org/ant/
+	 
+	To use this Ant build file, place a build.properties file in your 
+	home directory or the project's root directory that defines the following 
+	property(s):  
+	  
+	  catalina.home  	# Path to the Tomcat 5.0.x installation where this software will be deployed
+	  dds.context.name  # The Tomcat context directory into which the software 
+	                    # will be deployed. This should be set to "dds" 
+						# If not defined this will default to "dds"
+	  catalina.base		# (Optional) Path to the Tomcat 5.0.x catalina base. If not present, defaults 
+	  					# to ${catalina.home} 
+
+	  	  
+	  For example, on Windows plattforms your build.properties file might look like
+	  this (note the direction of the slashes):
+	  
+	  catalina.home = C:/Program Files/Apache Software Foundation/Tomcat 5.0
+	  dds.context.name = dds
+	  
+	  On UNIX plattforms your build.properties file might look like:
+	  
+	  catalina.home = /home/username/dev/jakarta-tomcat-5.0.18
+	  dds.context.name = dds
+	  
+	  Executing the 'deploy' target will build and deploy this software into Tomcat.
+	  You may then start Tomcat and access the application in your browser at
+	  http://localhost:8080/dds/
+	  
+
+	Overview of Ant build files: 
+	 
+	A "project" describes a set of targets that may be requested 
+	when Ant is executed.  The "default" attribute defines the 
+	target which is executed if no specific target is requested, 
+	and the "basedir" attribute defines the current working directory 
+	from which Ant executes the requested task.  This is normally 
+	set to the current working directory. 
+	 
+	Example commands at the your shell prompt: 
+	> ant 
+	# This executes the default target, in this case "compile" 
+	 
+	> ant deploy 
+	# This executes the "deploy" target. Since the deploy target 
+	# is dependent on the compile target, ant will be sure the  
+	# compile target is executed (if needed) before executing deploy. 
+--> 
+ 
+ 
+<project name="ORCID client webapp" default="compile" basedir="."> 
+ 
+<!-- ===================== Property Definitions ===========================  
+ 
+	Each of the following properties are used in the build script. 
+	Values for these properties are set by the first place they are 
+	defined, from the following list: 
+	* Definitions on the "ant" command line (ant -Dcatalina.home=xyz compile) 
+	* Definitions from a "xxx.properties" file as described below
+	* Default definitions in this build.xml file 
+	 
+	You will note below that property values can be composed based on the 
+	contents of previously defined properties.  This is a powerful technique 
+	that helps you minimize the number of changes required when your development 
+	environment is modified.  Note that property composition is allowed within 
+	"build.properties" files as well as in the "build.xml" script. 
+ 
+--> 
+   
+  <!-- The following properties files are sourced in the following order  -->
+  
+  <!-- DDS-specific properties should be placed in one of these files (only one should be used): -->
+  
+  <property file="../orcid.properties"/>   
+  <property file="${user.home}/build.properties"/>   
+  
+<!-- ==================== File and Directory Names ========================  
+ 
+  These properties generally define file and directory names (or paths) that 
+  affect where the build process stores its outputs. 
+ 
+  app.name             Base name of this application, used to 
+                       construct the .war an .jar filenames  
+					   and directories. 
+ 
+  app.version          Version identifier for this application. 
+ 
+  build.home           The directory into which the "prepare" and 
+                       "compile" targets will generate their output. 
+                       Defaults to "build". 
+ 
+  deploy.context.name     The name of the Tomcat directory and context into 
+                       which the app is deployed. Only the 
+					   executable and expendable files are copied,
+					   leaving config and test files untouched.
+					   Defaults to "${app.name}"
+               					   					   
+  tomcat.deploy.home   The name of the directory into which the 
+                       deployment hierarchy will be created, and into 
+                       which the build directory will be copied. 
+                       Defaults to "${catalina.home}/webapps/${deploy.context.name}". 
+					   					   
+  catalina.home        The directory in which you have installed 
+                       a binary distribution of Tomcat 4.0.x.  This will 
+                       be used by the "deploy" target. 
+		        
+--> 
+ 
+   <!-- 	The catalina.home property below points to a common installation of Tomcat at DLESE. 
+    		In general you should define the catalina.home property to point to your 
+			own development installation of Tomcat --> 
+  <!-- <property name="catalina.home" value="/export/devel/common/resources/tomcat/jakarta-tomcat-4.1.12"/> -->
+ 
+  <property name="app.name" 			value="orcid"/> 
+  <property name="app.version" 			value="0.1.0"/>
+  <property name="deploy.context.name"	value="${app.name}"/>
+  <property name="build.home"    		value="build"/>
+  <property name="build.lib"    		value="web/WEB-INF/lib"/>  
+  <property name="catalina.base"     	value="${catalina.home}"/>
+  <property name="tomcat.deploy.home"   value="${catalina.base}/webapps/${deploy.context.name}"/> 
+  
+  <property name="war.deploy.home"   	value="${tomcat.deploy.home}"/>
+  
+  <!-- Set the global Tomcat lib dir. These are at ${catalina.home}/common/lib in TC5, ${catalina.home}/lib in TC6 -->
+  <property name="catalina.lib.dir" value="${catalina.home}/lib" />
+ 
+<!--  ==================== Compilation Control Options ==================== - 
+ 
+  These properties control option settings on the Javac compiler when it 
+  is invoked using the <javac> task. 
+ 
+  compile.debug        Should compilation include the debug option? 
+ 
+  compile.deprecation  Should compilation include the deprecation option? 
+ 
+  compile.optimize     Should compilation include the optimize option? 
+ 
+--> 
+ 
+  <property name="compile.debug"       value="true"/> 
+  <property name="compile.deprecation" value="false"/> 
+  <property name="compile.optimize"    value="true"/> 
+ 
+	    
+<!-- ==================== Compilation Classpath ===========================  
+ 
+  Rather than relying on the CLASSPATH environment variable, Ant includes 
+  features that makes it easy to dynamically construct the classpath you 
+  need for each compilation.  The example below constructs the compile 
+  classpath to include the servlet.jar file, as well as the other components 
+  that Tomcat makes available to web applications automatically, plus anything 
+  that you explicitly added. 
+ 
+--> 
+ 
+  <path id="compile.classpath"> 
+
+  	<!-- 	Include dependent jars used in the build that are
+			also needed for deployment and distribution -
+			assumes all the needed jars have already been
+			copied into the build area -->
+    <fileset dir="${build.lib}"> 
+      <include name="*.jar"/> 
+    </fileset> 
+	
+	
+	<!-- 	Include the class dir and junit class dir so they are avail to 
+			each other for compiling -->    
+    <pathelement location="${build.home}/WEB-INF/classes"/>  
+    <pathelement location="${build.home}/WEB-INF/classes-junit"/>   
+  
+    <!-- Include all elements that Tomcat exposes to applications --> 
+    <pathelement location="${catalina.home}/common/classes"/> 
+    <pathelement location="${catalina.home}/classes"/> 
+ 
+	<!-- Include all the global tomcat jars. These are at ${catalina.home}/common/lib in TC5, ${catalina.home}/lib in TC6 -->
+	<fileset dir="${catalina.lib.dir}"> 
+		<include name="*.jar"/> 
+    </fileset>
+	
+  </path>
+
+    <!-- ==================== Config Parameters FilterSet ====================================== -->
+
+    <!-- Default config properties (overidden by properties.files) -->
+    <property name="instance.name" value="DCS"/>
+    <property name="logo.file" value="DLS-logo.png"/>
+    <property name="cataloging.info" value=""/>
+
+    <!-- filterset to do token replacement on config file -->
+    <filterset id="configFilterSet">
+        <filter token="ORCID_CLIENT_ID" value="${orc.client.id}"/>
+        <filter token="ORCID_CLIENT_SECRET" value="${orc.client.secret}"/>
+        <filter token="ORCID_CALLBACK_URI" value="${orc.callback.uri}"/>
+        <filter token="CREDENTIAL_STORE" value="${credential.store}"/>
+
+    </filterset>
+
+    <!-- ==================== All Target ======================================
+
+      The "all" target is a shortcut for running the "clean" target followed
+      by the "compile" target, to force a complete recompile.
+
+    -->
+ 
+  <target name="all" depends="clean,compile" 
+   description="Clean build dir, then compile"/> 
+ 
+ 
+ 
+<!-- ==================== Clean Target ====================================  
+ 
+  The "clean" target deletes any previous "build" directory, 
+  so that you can be ensured the application can be built from scratch. 
+ 
+--> 
+ 
+  <target name="clean" 
+   description="Delete the build directory"> 
+    
+	<delete dir="${build.home}"/> 
+	
+	<!-- <ant antfile="../dlese-tools-project/build.xml" inheritAll="false" target="clean"/> -->
+  </target> 
+
+  
+<!-- ==================== deploy-clean Target ====================================  
+ 
+  The "deploy-clean" target deletes any previous "deploy" directories in your
+  local Tomcat area.
+
+--> 
+ 
+  <target name="deploy-clean"
+   description="Delete the Tomcat deploy directory"> 
+    
+    <delete dir="${tomcat.deploy.home}"/>
+      <delete dir="${catalina.base}/work/localhost"/>
+	<delete dir="${catalina.base}/work/Standalone"/>
+  </target>
+
+	
+<!-- ==================== Compile Target ==================================  
+ 
+  The "compile" target transforms source files (from your "src" directory) 
+  into object files in the appropriate location in the build directory. 
+  This example assumes that you will be including your classes in an 
+  unpacked directory hierarchy under "/WEB-INF/classes". 
+ 
+--> 
+ 
+  <target name="compile" depends="prepare" 
+   description="Compile Java sources"> 
+   	
+    <!-- Copy associated resource files --> 
+    <copy  todir="${build.home}/WEB-INF/classes"> 
+    	<fileset dir="src" includes="**/*.properties"/> 
+    </copy> 
+     
+    <!-- Jar up the class files --> 
+    <jar destfile="${build.home}/WEB-INF/lib/${app.name}.jar"  
+    	basedir="${build.home}/WEB-INF/classes"/>     
+		
+	<!-- Compile and build DLESETools.jar to the build area -->
+<!-- 	<ant antfile="../dlese-tools-project/build.xml" inheritAll="false" target="jar">
+		<property name="jar.lib.dir" value="${build.home}/WEB-INF/lib"/>
+	</ant>	 -->	
+		
+    <!-- Compile Java classes as necessary --> 
+    <mkdir    dir="${build.home}/WEB-INF/classes"/> 
+    <javac srcdir="src" 
+          destdir="${build.home}/WEB-INF/classes" 
+           debug="${compile.debug}" 
+     deprecation="${compile.deprecation}" 
+        optimize="${compile.optimize}">
+        <classpath refid="compile.classpath"/>
+    </javac> 
+		
+  </target> 
+
+   	<!-- ==================== Deploy JSP Target ==================================== 
+	
+	Deploy jsps, js, html, css and images, etc. directly to Tomcat for convenience 
+	
+	-->
+	<target name="deploy-jsp"
+		description="Deploy only jsp, js, html, css, xml and image files to Tomcat">
+
+        <copy file="web/WEB-INF/web.xml" preservelastmodified="true"
+              todir="${tomcat.deploy.home}/WEB-INF">
+            <filterset refid="configFilterSet"/>
+        </copy>
+
+		<copy todir="${tomcat.deploy.home}" preservelastmodified="true"> 
+		  <fileset dir="web">
+			<include name="**/*.jsp" />  
+			<include name="**/*.html" />  
+			<include name="**/*.gif" />  
+			<include name="**/*.jpeg" />  
+			<include name="**/*.jpg" />  
+			<include name="**/*.css" />  
+			<include name="**/*.js" /> 
+			<include name="**/*.xml" />
+			<include name="**/*.tag" />
+            <exclude name="WEB-INF/web.xml"/>
+		  </fileset>
+		  <filterset>
+		  	<filter token="VERSION" value="${app.version}"/>
+			<filter token="BLANK" value=""/>
+		  </filterset>
+		</copy> 
+		
+	</target> 
+  
+
+<!-- ==================== Deploy Target ===================================  
+ 
+  The "deploy" target copies the contents of the build directory into a 
+  location required by our servlet container, and picks up any external 
+  dependencies along the way.  After restarting the servlet container, you 
+  can now test your web application. 
+ 
+--> 
+ 
+  <target name="deploy" depends="compile" 
+   description="Deploy the full application to Tomcat"> 
+ 
+    <!-- Copy the contents of the build directory --> 
+    <mkdir     dir="${tomcat.deploy.home}"/>
+
+      <!-- Local build will have security auth turned on -->
+      <copy todir="${tomcat.deploy.home}/WEB-INF"
+            file="${build.home}/WEB-INF/web.xml" overwrite="true">
+          <filterset refid="configFilterSet"/>
+      </copy>
+
+<!--	<copy    todir="${tomcat.deploy.home}">
+      <fileset dir="${build.home}">
+			<include name="**/*.jsp" />  
+			<include name="**/*.html" />  
+			<include name="**/*.css" />  
+			<include name="**/*.js" /> 
+			<include name="**/*.xml" />
+			<include name="**/*.properties" />
+	  </fileset> 
+	  <filterset>
+		<filter token="BLANK" value=""/>
+      	<filter token="VERSION" value="${app.version}"/>
+	  </filterset>
+	 </copy>-->
+	
+
+	<copy todir="${tomcat.deploy.home}"> 
+	  <fileset 	dir="${build.home}"
+                excludes="WEB-INF/classes-junit/, WEB-INF/web.xml"/>
+	</copy>
+	
+	
+  </target>
+
+    <!-- ==================== Undeploy-jsp Target ================================== -->
+
+    <target name="undeploy-jsp"
+            description="Synchronize /public JSPs (and other web UI files) if newer in servlet container">
+    <copy todir="web/public" preservelastmodified="true">
+        <fileset dir="${tomcat.deploy.home}/public" >
+            <include name="**/*.jsp" />
+            <include name="**/*.html" />
+            <include name="**/*.gif" />
+            <include name="**/*.jpeg" />
+            <include name="**/*.jpg" />
+            <include name="**/*.css" />
+            <include name="**/*.js" />
+        </fileset>
+    </copy>
+
+    </target>
+
+<!-- ==================== Prepare Target ==================================  
+ 
+  The "prepare" target is used to create the "build" destination directory, 
+  and copy the static contents of your web application to it.  If you need 
+  to copy static files from external dependencies, you can customize the 
+  contents of this task. 
+ 
+  Normally, this task is executed indirectly when needed. 
+ 
+--> 
+ 
+  <target name="prepare">
+  	<echo>Compiling NLDR Java libraries (build.home = ${build.home})</echo>
+      <!-- Create build directories as needed -->
+    <mkdir  dir="${build.home}"/>
+    <mkdir  dir="${build.home}/WEB-INF"/>
+    <mkdir  dir="${build.home}/WEB-INF/classes"/> 
+    <mkdir  dir="${build.home}/WEB-INF/lib"/> 
+	
+    <!-- Copy in the web dir --> 
+    <copy todir="${build.home}"> 
+      <fileset dir="web">
+	  	<include name="**/*.jsp"/>
+		<include name="**/*.html"/>
+		<include name="**/*.txt"/>
+	  </fileset>
+	  
+	  <!-- Remove the BLANK tag in the jsps (fixes bug in JEdit if XML 
+		declaration is the first thing in the file -->
+	  <filterset>
+		<filter token="BLANK" value=""/>
+      	<filter token="VERSION" value="${app.version}"/>
+	  </filterset>
+    </copy> 
+
+	<copy todir="${build.home}"> 
+      <fileset dir="web">
+	  	<exclude name="**/*.jsp"/>
+		<exclude name="**/*.html"/>
+		<exclude name="**/*.txt"/>
+	  </fileset> 
+    </copy> 
+
+	
+	<!-- Copy over the build.xml file -->
+	<copy file="build.xml" tofile="${build.home}/docs/build.txt" /> 
+	
+    <!-- Copy static files from external dependencies as needed --> 
+  </target>
+  
+  <target name="info">
+  	<echo>war.deploy.home: ${war.deploy.home}</echo>
+	</target>
+  
+	<!-- 
+		The "war" target creates an application war file suitable for deployment
+			requires property "war.deploy.home", which can default to the tomcat
+			deploy directory.
+	-->
+	<target name="war"
+			depends=""
+			description="Creates a WAR file that can be used for application deployment">
+	
+		<!--
+			Basic approach: Simply override the deploy target to deploy to the war
+			staging dir instead of tomcat webapps, then jar up the deployed app 
+			into a war file
+		-->
+		<echo>Creating war file for deployment</echo>
+		
+		<property name="war.deploy.staging.dir"
+				  value="${war.deploy.home}/${deploy.context.name}"/>
+		
+		<mkdir dir="${war.deploy.home}"/>
+		
+		<ant target="clean">
+			<property name="tomcat.deploy.home"
+					  value="${war.deploy.staging.dir}" />
+		</ant>
+		
+		<ant target="deploy-clean">
+			<property name="tomcat.deploy.home"
+					  value="${war.deploy.staging.dir}" />
+		</ant>
+		
+		<ant target="deploy">
+			<property name="tomcat.deploy.home"
+					  value="${war.deploy.staging.dir}" />
+		</ant>
+		
+		<!-- Create the application WAR file -->
+		<jar jarfile="${war.deploy.home}/${deploy.context.name}.war"
+			 basedir="${war.deploy.staging.dir}" />
+		 
+	</target>
+  
+</project> 
+ 
+ 

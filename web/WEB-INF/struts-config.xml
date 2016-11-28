@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <!-- This is the struts config for the ORCID web application -->
+  <!DOCTYPE struts-config PUBLIC  
+          "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"  
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+  <struts-config> 
+      
+	<!-- ========== Form Bean Definitions =================================== -->
+    
+	<form-beans> 
+
+<!-- 		<form-bean 	
+			name="ccForm"  
+			type="org.dlese.dpc.services.commcore.action.form.CommCoreForm"/>	 -->		
+    </form-beans>
+	
+	<!-- ========== Global Forward Definitions ============================== -->
+    <global-forwards> 
+		<forward name="welcome" path="/index.jsp"/>    
+    </global-forwards>
+    
+	
+	<!-- ========== Action Mapping Definitions ============================== -->
+    <action-mappings> 
+ 
+		<!-- OAuth: handles interaction with Google Auth-->
+		<action	path="/oauth"
+				type="org.iis.orcid.action.OAuthAction"
+				scope="request"
+				validate="true">
+			<forward name="auth.page" path="/oauth/index.jsp"/>
+			<forward name="json.response" path="/oauth/json_response.jsp"/>
+		</action>
+		
+	</action-mappings>
+	
+	<controller debug="0"/>
+	
+  </struts-config>

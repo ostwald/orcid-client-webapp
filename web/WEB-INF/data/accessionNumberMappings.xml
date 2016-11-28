@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accessionNumberMappings date="Fri Oct 29 16:43:10 2010">
+    <mapping drNumber="DR000002" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-002"/>
+    <mapping drNumber="DR000003" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-003"/>
+    <mapping drNumber="DR000004" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-004"/>
+    <mapping drNumber="DR000005" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-005"/>
+    <mapping drNumber="DR000006" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-006"/>
+    <mapping drNumber="DR000007" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-007"/>
+    <mapping drNumber="DR000008" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-008"/>
+    <mapping drNumber="DR000009" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-009"/>
+    <mapping drNumber="DR000010" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-010"/>
+    <mapping drNumber="DR000011" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-011"/>
+    <mapping drNumber="DR000012" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-012"/>
+    <mapping drNumber="DR000013" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-013"/>
+    <mapping drNumber="DR000014" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-014"/>
+    <mapping drNumber="DR000015" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-015"/>
+    <mapping drNumber="DR000016" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-016"/>
+    <mapping drNumber="DR000017" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-017"/>
+    <mapping drNumber="DR000018" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-018"/>
+    <mapping drNumber="DR000019" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-019"/>
+    <mapping drNumber="DR000020" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-020"/>
+    <mapping drNumber="DR000021" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-021"/>
+    <mapping drNumber="DR000022" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-022"/>
+    <mapping drNumber="DR000023" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-023"/>
+    <mapping drNumber="DR000024" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-024"/>
+    <mapping drNumber="DR000025" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-025"/>
+    <mapping drNumber="DR000026" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-026"/>
+    <mapping drNumber="DR000027" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-027"/>
+    <mapping drNumber="DR000028" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-028"/>
+    <mapping drNumber="DR000029" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-029"/>
+    <mapping drNumber="DR000030" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-030"/>
+    <mapping drNumber="DR000031" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-031"/>
+    <mapping drNumber="DR000032" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-032"/>
+    <mapping drNumber="DR000033" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-033"/>
+    <mapping drNumber="DR000034" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-034"/>
+    <mapping drNumber="DR000035" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-035"/>
+    <mapping drNumber="DR000036" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-036"/>
+    <mapping drNumber="DR000037" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-037"/>
+    <mapping drNumber="DR000038" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-038"/>
+    <mapping drNumber="DR000039" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-039"/>
+    <mapping drNumber="DR000040" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-040"/>
+    <mapping drNumber="DR000041" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-041"/>
+    <mapping drNumber="DR000042" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-042"/>
+    <mapping drNumber="DR000043" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-043"/>
+    <mapping drNumber="DR000044" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-044"/>
+    <mapping drNumber="DR000045" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-045"/>
+    <mapping drNumber="DR000046" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-046"/>
+    <mapping drNumber="DR000047" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-047"/>
+    <mapping drNumber="DR000048" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-048"/>
+    <mapping drNumber="DR000049" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-049"/>
+    <mapping drNumber="DR000050" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-050"/>
+    <mapping drNumber="DR000051"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-051"/>
+    <mapping drNumber="DR000052" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-052"/>
+    <mapping drNumber="DR000053" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-053"/>
+    <mapping drNumber="DR000054" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-054"/>
+    <mapping drNumber="DR000055" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-055"/>
+    <mapping drNumber="DR000056" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-056"/>
+    <mapping drNumber="DR000057" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-057"/>
+    <mapping drNumber="DR000058" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-058"/>
+    <mapping drNumber="DR000059" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-059"/>
+    <mapping drNumber="DR000060" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-060"/>
+    <mapping drNumber="DR000061" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-061"/>
+    <mapping drNumber="DR000062" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-062"/>
+    <mapping drNumber="DR000063" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-063"/>
+    <mapping drNumber="DR000064" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-064"/>
+    <mapping drNumber="DR000065" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-065"/>
+    <mapping drNumber="DR000066" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-066"/>
+    <mapping drNumber="DR000067" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-067"/>
+    <mapping drNumber="DR000068" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-068"/>
+    <mapping drNumber="DR000069" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-069"/>
+    <mapping drNumber="DR000070" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-070"/>
+    <mapping drNumber="DR000071" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-071"/>
+    <mapping drNumber="DR000072" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-072"/>
+    <mapping drNumber="DR000073" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-073"/>
+    <mapping drNumber="DR000074" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-074"/>
+    <mapping drNumber="DR000075" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-075"/>
+    <mapping drNumber="DR000076" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-076"/>
+    <mapping drNumber="DR000077" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-077"/>
+    <mapping drNumber="DR000078" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000079" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-079"/>
+    <mapping drNumber="DR000080" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-002"/>
+    <mapping drNumber="DR000081" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-002"/>
+    <mapping drNumber="DR000082" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-083"/>
+    <mapping drNumber="DR000083" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-083"/>
+    <mapping drNumber="DR000084" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-083"/>
+    <mapping drNumber="DR000085" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-086"/>
+    <mapping drNumber="DR000086" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-086"/>
+    <mapping drNumber="DR000087" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-086"/>
+    <mapping drNumber="DR000088" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-089"/>
+    <mapping drNumber="DR000089" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-089"/>
+    <mapping drNumber="DR000090" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-089"/>
+    <mapping drNumber="DR000091" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-089"/>
+    <mapping drNumber="DR000092" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-089"/>
+    <mapping drNumber="DR000093" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-094"/>
+    <mapping drNumber="DR000094" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-094"/>
+    <mapping drNumber="DR000095" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-094"/>
+    <mapping drNumber="DR000096" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-097"/>
+    <mapping drNumber="DR000097" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-097"/>
+    <mapping drNumber="DR000098" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-097"/>
+    <mapping drNumber="DR000099" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-100"/>
+    <mapping drNumber="DR000100" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-100"/>
+    <mapping drNumber="DR000101" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-100"/>
+    <mapping drNumber="DR000102" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-100"/>
+    <mapping drNumber="DR000103" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-104"/>
+    <mapping drNumber="DR000104" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-104"/>
+    <mapping drNumber="DR000105" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-104"/>
+    <mapping drNumber="DR000106" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-106"/>
+    <mapping drNumber="DR000107" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-106"/>
+    <mapping drNumber="DR000109" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-109"/>
+    <mapping drNumber="DR000110" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-109"/>
+    <mapping drNumber="DR000111" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-109"/>
+    <mapping drNumber="DR000112" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-106"/>
+    <mapping drNumber="DR000113" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-114"/>
+    <mapping drNumber="DR000114" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-114"/>
+    <mapping drNumber="DR000115" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-114"/>
+    <mapping drNumber="DR000116" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-117"/>
+    <mapping drNumber="DR000117" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-117"/>
+    <mapping drNumber="DR000118" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-117"/>
+    <mapping drNumber="DR000119" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-117"/>
+    <mapping drNumber="DR000120" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-117"/>
+    <mapping drNumber="DR000121" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-117"/>
+    <mapping drNumber="DR000122" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000123" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000124" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000125" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000126" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000127" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-127"/>
+    <mapping drNumber="DR000128" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-128"/>
+    <mapping drNumber="DR000129" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-129"/>
+    <mapping drNumber="DR000130" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-130"/>
+    <mapping drNumber="DR000131" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-131"/>
+    <mapping drNumber="DR000132" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-132"/>
+    <mapping drNumber="DR000133" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-133"/>
+    <mapping drNumber="DR000134" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-078"/>
+    <mapping drNumber="DR000135"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-135"/>
+    <mapping drNumber="DR000136"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-135"/>
+    <mapping drNumber="DR000137"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-135"/>
+    <mapping drNumber="DR000138" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-138"/>
+    <mapping drNumber="DR000139" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-139"/>
+    <mapping drNumber="DR000140" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-140"/>
+    <mapping drNumber="DR000141" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-141"/>
+    <mapping drNumber="DR000142" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-142"/>
+    <mapping drNumber="DR000143" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-143"/>
+    <mapping drNumber="DR000144" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-144"/>
+    <mapping drNumber="DR000145" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-145"/>
+    <mapping drNumber="DR000146" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-146"/>
+    <mapping drNumber="DR000147" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-147"/>
+    <mapping drNumber="DR000148" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-148"/>
+    <mapping drNumber="DR000149" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-149"/>
+    <mapping drNumber="DR000150" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-150"/>
+    <mapping drNumber="DR000151" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-151"/>
+    <mapping drNumber="DR000152" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-152"/>
+    <mapping drNumber="DR000153" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-153"/>
+    <mapping drNumber="DR000154" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-154"/>
+    <mapping drNumber="DR000155" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-155"/>
+    <mapping drNumber="DR000156" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-156"/>
+    <mapping drNumber="DR000157" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-157"/>
+    <mapping drNumber="DR000158" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-158"/>
+    <mapping drNumber="DR000159" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-159"/>
+    <mapping drNumber="DR000160" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-160"/>
+    <mapping drNumber="DR000161" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-161"/>
+    <mapping drNumber="DR000162" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-162"/>
+    <mapping drNumber="DR000163" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-163"/>
+    <mapping drNumber="DR000164" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-164"/>
+    <mapping drNumber="DR000165" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-165"/>
+    <mapping drNumber="DR000166" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-166"/>
+    <mapping drNumber="DR000167" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-167"/>
+    <mapping drNumber="DR000168" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-168"/>
+    <mapping drNumber="DR000169" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-169"/>
+    <mapping drNumber="DR000170" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-170"/>
+    <mapping drNumber="DR000172" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-172"/>
+    <mapping drNumber="DR000173" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-172"/>
+    <mapping drNumber="DR000174" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-174"/>
+    <mapping drNumber="DR000175" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-175"/>
+    <mapping drNumber="DR000176" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-176"/>
+    <mapping drNumber="DR000177" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-177"/>
+    <mapping drNumber="DR000178" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-178"/>
+    <mapping drNumber="DR000179" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-179"/>
+    <mapping drNumber="DR000180" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-180"/>
+    <mapping drNumber="DR000181" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-181"/>
+    <mapping drNumber="DR000182" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-182"/>
+    <mapping drNumber="DR000183" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-183"/>
+    <mapping drNumber="DR000184" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-184"/>
+    <mapping drNumber="DR000185" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-185"/>
+    <mapping drNumber="DR000186" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-186"/>
+    <mapping drNumber="DR000187" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-187"/>
+    <mapping drNumber="DR000188" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-188"/>
+    <mapping drNumber="DR000189" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-189"/>
+    <mapping drNumber="DR000190" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-190"/>
+    <mapping drNumber="DR000191" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-191"/>
+    <mapping drNumber="DR000192" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-192"/>
+    <mapping drNumber="DR000193" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-193"/>
+    <mapping drNumber="DR000194" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-194"/>
+    <mapping drNumber="DR000195" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-195"/>
+    <mapping drNumber="DR000196" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-196"/>
+    <mapping drNumber="DR000197" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-197"/>
+    <mapping drNumber="DR000198" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-198"/>
+    <mapping drNumber="DR000199" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-199"/>
+    <mapping drNumber="DR000200" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-200"/>
+    <mapping drNumber="DR000201" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-201"/>
+    <mapping drNumber="DR000202" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-202"/>
+    <mapping drNumber="DR000203" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-203"/>
+    <mapping drNumber="DR000204" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-204"/>
+    <mapping drNumber="DR000205" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-205"/>
+    <mapping drNumber="DR000206" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-206"/>
+    <mapping drNumber="DR000207" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-207"/>
+    <mapping drNumber="DR000208" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-208"/>
+    <mapping drNumber="DR000209" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-209"/>
+    <mapping drNumber="DR000210" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-210"/>
+    <mapping drNumber="DR000211" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-211"/>
+    <mapping drNumber="DR000212" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-212"/>
+    <mapping drNumber="DR000213" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-213"/>
+    <mapping drNumber="DR000214" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-214"/>
+    <mapping drNumber="DR000215" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-215"/>
+    <mapping drNumber="DR000216" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-216"/>
+    <mapping drNumber="DR000217" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-217"/>
+    <mapping drNumber="DR000218" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-218"/>
+    <mapping drNumber="DR000219" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-219"/>
+    <mapping drNumber="DR000220" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-220"/>
+    <mapping drNumber="DR000221" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-221"/>
+    <mapping drNumber="DR000222" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-222"/>
+    <mapping drNumber="DR000223" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-223"/>
+    <mapping drNumber="DR000224" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-224"/>
+    <mapping drNumber="DR000225" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-225"/>
+    <mapping drNumber="DR000226" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-226"/>
+    <mapping drNumber="DR000227" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-227"/>
+    <mapping drNumber="DR000228" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-228"/>
+    <mapping drNumber="DR000229" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-229"/>
+    <mapping drNumber="DR000230" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-230"/>
+    <mapping drNumber="DR000231" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-231"/>
+    <mapping drNumber="DR000232" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-232"/>
+    <mapping drNumber="DR000233" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-233"/>
+    <mapping drNumber="DR000234" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-234"/>
+    <mapping drNumber="DR000235" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-235"/>
+    <mapping drNumber="DR000236" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-236"/>
+    <mapping drNumber="DR000238" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-238"/>
+    <mapping drNumber="DR000239" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-239"/>
+    <mapping drNumber="DR000240" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-240"/>
+    <mapping drNumber="DR000241" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-241"/>
+    <mapping drNumber="DR000242" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-242"/>
+    <mapping drNumber="DR000243" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-243"/>
+    <mapping drNumber="DR000244" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-244"/>
+    <mapping drNumber="DR000245" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-245"/>
+    <mapping drNumber="DR000246" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-245"/>
+    <mapping drNumber="DR000247" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-245"/>
+    <mapping drNumber="DR000248" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-248"/>
+    <mapping drNumber="DR000249" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-248"/>
+    <mapping drNumber="DR000250" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-250"/>
+    <mapping drNumber="DR000251" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-252"/>
+    <mapping drNumber="DR000252" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-252"/>
+    <mapping drNumber="DR000253" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-252"/>
+    <mapping drNumber="DR000254" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-255"/>
+    <mapping drNumber="DR000255" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-255"/>
+    <mapping drNumber="DR000256" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-255"/>
+    <mapping drNumber="DR000257" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-258"/>
+    <mapping drNumber="DR000258" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-258"/>
+    <mapping drNumber="DR000259" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-258"/>
+    <mapping drNumber="DR000260" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-261"/>
+    <mapping drNumber="DR000261" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-261"/>
+    <mapping drNumber="DR000262" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-261"/>
+    <mapping drNumber="DR000263" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-264"/>
+    <mapping drNumber="DR000264" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-264"/>
+    <mapping drNumber="DR000265" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-264"/>
+    <mapping drNumber="DR000266" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-266"/>
+    <mapping drNumber="DR000267" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-267"/>
+    <mapping drNumber="DR000268" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-268"/>
+    <mapping drNumber="DR000269" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-269"/>
+    <mapping drNumber="DR000270" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-270"/>
+    <mapping drNumber="DR000271" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-271"/>
+    <mapping drNumber="DR000272" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-272"/>
+    <mapping drNumber="DR000273" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-273"/>
+    <mapping drNumber="DR000274" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-274"/>
+    <mapping drNumber="DR000275" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-275"/>
+    <mapping drNumber="DR000276" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-276"/>
+    <mapping drNumber="DR000277" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-277"/>
+    <mapping drNumber="DR000278" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-278"/>
+    <mapping drNumber="DR000279" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-279"/>
+    <mapping drNumber="DR000280"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-280"/>
+    <mapping drNumber="DR000281" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-281"/>
+    <mapping drNumber="DR000282" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-282"/>
+    <mapping drNumber="DR000283" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-283"/>
+    <mapping drNumber="DR000284" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-284"/>
+    <mapping drNumber="DR000285" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-285"/>
+    <mapping drNumber="DR000286" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-286"/>
+    <mapping drNumber="DR000287" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-287"/>
+    <mapping drNumber="DR000288" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-288"/>
+    <mapping drNumber="DR000289" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-289"/>
+    <mapping drNumber="DR000290" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-290"/>
+    <mapping drNumber="DR000291" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-291"/>
+    <mapping drNumber="DR000292" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-292"/>
+    <mapping drNumber="DR000293" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-293"/>
+    <mapping drNumber="DR000294" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-294"/>
+    <mapping drNumber="DR000295" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-295"/>
+    <mapping drNumber="DR000296" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-296"/>
+    <mapping drNumber="DR000297" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-297"/>
+    <mapping drNumber="DR000298" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-299"/>
+    <mapping drNumber="DR000299" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-299"/>
+    <mapping drNumber="DR000300" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-299"/>
+    <mapping drNumber="DR000301" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-299"/>
+    <mapping drNumber="DR000303" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-304"/>
+    <mapping drNumber="DR000304" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-304"/>
+    <mapping drNumber="DR000305" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-304"/>
+    <mapping drNumber="DR000306" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-306"/>
+    <mapping drNumber="DR000307" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-307"/>
+    <mapping drNumber="DR000308" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-308"/>
+    <mapping drNumber="DR000309" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-309"/>
+    <mapping drNumber="DR000310" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-310"/>
+    <mapping drNumber="DR000311" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-311"/>
+    <mapping drNumber="DR000312" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-312"/>
+    <mapping drNumber="DR000313" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-313"/>
+    <mapping drNumber="DR000314" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-314"/>
+    <mapping drNumber="DR000315" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-315"/>
+    <mapping drNumber="DR000316" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-316"/>
+    <mapping drNumber="DR000317" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-317"/>
+    <mapping drNumber="DR000318" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-318"/>
+    <mapping drNumber="DR000319" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-319"/>
+    <mapping drNumber="DR000320" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-320"/>
+    <mapping drNumber="DR000321" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-321"/>
+    <mapping drNumber="DR000322" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-322"/>
+    <mapping drNumber="DR000323" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-323"/>
+    <mapping drNumber="DR000324" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-324"/>
+    <mapping drNumber="DR000325" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-325"/>
+    <mapping drNumber="DR000326" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-326"/>
+    <mapping drNumber="DR000327" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-327"/>
+    <mapping drNumber="DR000328" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-328"/>
+    <mapping drNumber="DR000330" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-330"/>
+    <mapping drNumber="DR000331" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-331"/>
+    <mapping drNumber="DR000332" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-332"/>
+    <mapping drNumber="DR000333" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-333"/>
+    <mapping drNumber="DR000334" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-334"/>
+    <mapping drNumber="DR000335" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-335"/>
+    <mapping drNumber="DR000336" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-336"/>
+    <mapping drNumber="DR000337" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-337"/>
+    <mapping drNumber="DR000338" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-338"/>
+    <mapping drNumber="DR000339" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-338"/>
+    <mapping drNumber="DR000340" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-340"/>
+    <mapping drNumber="DR000341" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-341"/>
+    <mapping drNumber="DR000342" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-342"/>
+    <mapping drNumber="DR000343" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-343"/>
+    <mapping drNumber="DR000344" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-344"/>
+    <mapping drNumber="DR000345" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-345"/>
+    <mapping drNumber="DR000346" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-345"/>
+    <mapping drNumber="DR000348" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-348"/>
+    <mapping drNumber="DR000349" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-349"/>
+    <mapping drNumber="DR000350" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-350"/>
+    <mapping drNumber="DR000351" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-351"/>
+    <mapping drNumber="DR000352" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-352"/>
+    <mapping drNumber="DR000353" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-353"/>
+    <mapping drNumber="DR000354" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-354"/>
+    <mapping drNumber="DR000355" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-626"/>
+    <mapping drNumber="DR000356" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-356"/>
+    <mapping drNumber="DR000357" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-356"/>
+    <mapping drNumber="DR000358" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-356"/>
+    <mapping drNumber="DR000359" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-356"/>
+    <mapping drNumber="DR000360" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-360"/>
+    <mapping drNumber="DR000361" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-361"/>
+    <mapping drNumber="DR000362" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-362"/>
+    <mapping drNumber="DR000363" queryString="collId=1259799112473&amp;itemId=HIST-000-000-000-004"/>
+    <mapping drNumber="DR000364" queryString="collId=1259799112473&amp;itemId=HIST-000-000-000-004"/>
+    <mapping drNumber="DR000365" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-365"/>
+    <mapping drNumber="DR000366" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-365"/>
+    <mapping drNumber="DR000367" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-365"/>
+    <mapping drNumber="DR000368" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-365"/>
+    <mapping drNumber="DR000369" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-365"/>
+    <mapping drNumber="DR000370" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-365"/>
+    <mapping drNumber="DR000371" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-371"/>
+    <mapping drNumber="DR000372" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-371"/>
+    <mapping drNumber="DR000373" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-373"/>
+    <mapping drNumber="DR000374" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-373"/>
+    <mapping drNumber="DR000375" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-373"/>
+    <mapping drNumber="DR000376"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-376"/>
+    <mapping drNumber="DR000377"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-376"/>
+    <mapping drNumber="DR000378" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-378"/>
+    <mapping drNumber="DR000379" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-379"/>
+    <mapping drNumber="DR000380" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-380"/>
+    <mapping drNumber="DR000381" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-381"/>
+    <mapping drNumber="DR000382" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-382"/>
+    <mapping drNumber="DR000383" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-383"/>
+    <mapping drNumber="DR000384" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-384"/>
+    <mapping drNumber="DR000385" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-385"/>
+    <mapping drNumber="DR000386" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-386"/>
+    <mapping drNumber="DR000387" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-387"/>
+    <mapping drNumber="DR000388" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-388"/>
+    <mapping drNumber="DR000390" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-390"/>
+    <mapping drNumber="DR000391" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-391"/>
+    <mapping drNumber="DR000392" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-392"/>
+    <mapping drNumber="DR000393" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-393"/>
+    <mapping drNumber="DR000394" queryString="collId=1254436054235&amp;itemId=NHRE-000-000-000-001"/>
+    <mapping drNumber="DR000396" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-144"/>
+    <mapping drNumber="DR000397" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-156"/>
+    <mapping drNumber="DR000398" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-170"/>
+    <mapping drNumber="DR000399" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-399"/>
+    <mapping drNumber="DR000400" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-399"/>
+    <mapping drNumber="DR000401" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-401"/>
+    <mapping drNumber="DR000402" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-401"/>
+    <mapping drNumber="DR000403" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-401"/>
+    <mapping drNumber="DR000404" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-404"/>
+    <mapping drNumber="DR000405" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-404"/>
+    <mapping drNumber="DR000406" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-406"/>
+    <mapping drNumber="DR000407" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-406"/>
+    <mapping drNumber="DR000408" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-408"/>
+    <mapping drNumber="DR000409" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-409"/>
+    <mapping drNumber="DR000410" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-410"/>
+    <mapping drNumber="DR000411" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-411"/>
+    <mapping drNumber="DR000412" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-412"/>
+    <mapping drNumber="DR000413" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-413"/>
+    <mapping drNumber="DR000414" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-414"/>
+    <mapping drNumber="DR000415" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-415"/>
+    <mapping drNumber="DR000416" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-416"/>
+    <mapping drNumber="DR000417" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-417"/>
+    <mapping drNumber="DR000418" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-418"/>
+    <mapping drNumber="DR000419" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-419"/>
+    <mapping drNumber="DR000420" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-420"/>
+    <mapping drNumber="DR000421" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-421"/>
+    <mapping drNumber="DR000422" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-422"/>
+    <mapping drNumber="DR000423" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-423"/>
+    <mapping drNumber="DR000424" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-424"/>
+    <mapping drNumber="DR000425" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-425"/>
+    <mapping drNumber="DR000426" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-426"/>
+    <mapping drNumber="DR000427" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-427"/>
+    <mapping drNumber="DR000428" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-428"/>
+    <mapping drNumber="DR000429" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-429"/>
+    <mapping drNumber="DR000430" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-430"/>
+    <mapping drNumber="DR000431" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-431"/>
+    <mapping drNumber="DR000432" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-432"/>
+    <mapping drNumber="DR000433" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-433"/>
+    <mapping drNumber="DR000434" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-435"/>
+    <mapping drNumber="DR000435" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-435"/>
+    <mapping drNumber="DR000436" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-435"/>
+    <mapping drNumber="DR000437" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-435"/>
+    <mapping drNumber="DR000438" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-439"/>
+    <mapping drNumber="DR000439" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-439"/>
+    <mapping drNumber="DR000440" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-439"/>
+    <mapping drNumber="DR000441" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-439"/>
+    <mapping drNumber="DR000443" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000444" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000445" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000446" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000447" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000448" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000449" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000450" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000451" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-444"/>
+    <mapping drNumber="DR000452" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000453" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-453"/>
+    <mapping drNumber="DR000454" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-454"/>
+    <mapping drNumber="DR000455" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-455"/>
+    <mapping drNumber="DR000456" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-456"/>
+    <mapping drNumber="DR000457" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000458" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000459" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000460" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000461" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000462" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000463" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000464" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000465" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-457"/>
+    <mapping drNumber="DR000466" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000467" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000468" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000469" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000470" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000471" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000472" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000473" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000474" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000475" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000476" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000477" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000478" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000479" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-467"/>
+    <mapping drNumber="DR000480" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-211"/>
+    <mapping drNumber="DR000481" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-211"/>
+    <mapping drNumber="DR000482" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-211"/>
+    <mapping drNumber="DR000483" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-484"/>
+    <mapping drNumber="DR000484" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-484"/>
+    <mapping drNumber="DR000486" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-487"/>
+    <mapping drNumber="DR000487" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-487"/>
+    <mapping drNumber="DR000488" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-487"/>
+    <mapping drNumber="DR000489" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-487"/>
+    <mapping drNumber="DR000490" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-491"/>
+    <mapping drNumber="DR000491" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-491"/>
+    <mapping drNumber="DR000492" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-491"/>
+    <mapping drNumber="DR000493" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-491"/>
+    <mapping drNumber="DR000494" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-494"/>
+    <mapping drNumber="DR000495" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-495"/>
+    <mapping drNumber="DR000496" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-496"/>
+    <mapping drNumber="DR000497" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-497"/>
+    <mapping drNumber="DR000498" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-498"/>
+    <mapping drNumber="DR000499" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-499"/>
+    <mapping drNumber="DR000500" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-500"/>
+    <mapping drNumber="DR000501" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-501"/>
+    <mapping drNumber="DR000502" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-502"/>
+    <mapping drNumber="DR000503" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-503"/>
+    <mapping drNumber="DR000504" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-504"/>
+    <mapping drNumber="DR000505" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-505"/>
+    <mapping drNumber="DR000506" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-506"/>
+    <mapping drNumber="DR000507" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-507"/>
+    <mapping drNumber="DR000508" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-508"/>
+    <mapping drNumber="DR000511" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-511"/>
+    <mapping drNumber="DR000512" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-512"/>
+    <mapping drNumber="DR000513" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-513"/>
+    <mapping drNumber="DR000514" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-514"/>
+    <mapping drNumber="DR000515" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-515"/>
+    <mapping drNumber="DR000516" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-516"/>
+    <mapping drNumber="DR000519" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-519"/>
+    <mapping drNumber="DR000520" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-520"/>
+    <mapping drNumber="DR000521" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-521"/>
+    <mapping drNumber="DR000522" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-522"/>
+    <mapping drNumber="DR000523" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-523"/>
+    <mapping drNumber="DR000524" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-524"/>
+    <mapping drNumber="DR000525" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-525"/>
+    <mapping drNumber="DR000526" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-526"/>
+    <mapping drNumber="DR000527" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-527"/>
+    <mapping drNumber="DR000528" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-528"/>
+    <mapping drNumber="DR000529" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-529"/>
+    <mapping drNumber="DR000530" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-530"/>
+    <mapping drNumber="DR000531" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-531"/>
+    <mapping drNumber="DR000532" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-532"/>
+    <mapping drNumber="DR000533" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-533"/>
+    <mapping drNumber="DR000534" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-534"/>
+    <mapping drNumber="DR000535" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-535"/>
+    <mapping drNumber="DR000536" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-536"/>
+    <mapping drNumber="DR000537" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-537"/>
+    <mapping drNumber="DR000538" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-539"/>
+    <mapping drNumber="DR000539" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-539"/>
+    <mapping drNumber="DR000540" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-539"/>
+    <mapping drNumber="DR000541" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-542"/>
+    <mapping drNumber="DR000542" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-542"/>
+    <mapping drNumber="DR000543" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-542"/>
+    <mapping drNumber="DR000544" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000545" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000546" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000547" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000548" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000549" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000550" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-545"/>
+    <mapping drNumber="DR000551" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-552"/>
+    <mapping drNumber="DR000552" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-552"/>
+    <mapping drNumber="DR000553" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-552"/>
+    <mapping drNumber="DR000554" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-552"/>
+    <mapping drNumber="DR000555" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-556"/>
+    <mapping drNumber="DR000556" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-556"/>
+    <mapping drNumber="DR000557" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-556"/>
+    <mapping drNumber="DR000558" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-556"/>
+    <mapping drNumber="DR000559" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-559"/>
+    <mapping drNumber="DR000560" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-560"/>
+    <mapping drNumber="DR000561" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-561"/>
+    <mapping drNumber="DR000562" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-562"/>
+    <mapping drNumber="DR000563" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-563"/>
+    <mapping drNumber="DR000564" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-564"/>
+    <mapping drNumber="DR000565" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-565"/>
+    <mapping drNumber="DR000566" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-566"/>
+    <mapping drNumber="DR000567" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-567"/>
+    <mapping drNumber="DR000568" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-568"/>
+    <mapping drNumber="DR000569" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-569"/>
+    <mapping drNumber="DR000572" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-572"/>
+    <mapping drNumber="DR000573" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-573"/>
+    <mapping drNumber="DR000574" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-574"/>
+    <mapping drNumber="DR000575" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-575"/>
+    <mapping drNumber="DR000576" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-576"/>
+    <mapping drNumber="DR000577" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-577"/>
+    <mapping drNumber="DR000578" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-578"/>
+    <mapping drNumber="DR000579" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-579"/>
+    <mapping drNumber="DR000580" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-580"/>
+    <mapping drNumber="DR000582" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-582"/>
+    <mapping drNumber="DR000583" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-583"/>
+    <mapping drNumber="DR000584" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-584"/>
+    <mapping drNumber="DR000585" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-585"/>
+    <mapping drNumber="DR000586" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-586"/>
+    <mapping drNumber="DR000587" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-588"/>
+    <mapping drNumber="DR000588" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-588"/>
+    <mapping drNumber="DR000589" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-588"/>
+    <mapping drNumber="DR000590" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-588"/>
+    <mapping drNumber="DR000591" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-588"/>
+    <mapping drNumber="DR000592" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-592"/>
+    <mapping drNumber="DR000593" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-593"/>
+    <mapping drNumber="DR000594" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-594"/>
+    <mapping drNumber="DR000595" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-595"/>
+    <mapping drNumber="DR000596" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-596"/>
+    <mapping drNumber="DR000597" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-597"/>
+    <mapping drNumber="DR000599" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-599"/>
+    <mapping drNumber="DR000600" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-600"/>
+    <mapping drNumber="DR000601" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-601"/>
+    <mapping drNumber="DR000602" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-602"/>
+    <mapping drNumber="DR000603" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-602"/>
+    <mapping drNumber="DR000604" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-602"/>
+    <mapping drNumber="DR000605" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-177"/>
+    <mapping drNumber="DR000606" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-179"/>
+    <mapping drNumber="DR000607" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-184"/>
+    <mapping drNumber="DR000608" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-190"/>
+    <mapping drNumber="DR000609" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-192"/>
+    <mapping drNumber="DR000610" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-195"/>
+    <mapping drNumber="DR000611" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-611"/>
+    <mapping drNumber="DR000612" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-611"/>
+    <mapping drNumber="DR000613" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-613"/>
+    <mapping drNumber="DR000614" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-613"/>
+    <mapping drNumber="DR000615" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-615"/>
+    <mapping drNumber="DR000616" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-615"/>
+    <mapping drNumber="DR000617" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-617"/>
+    <mapping drNumber="DR000618" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-617"/>
+    <mapping drNumber="DR000619" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-619"/>
+    <mapping drNumber="DR000620" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-619"/>
+    <mapping drNumber="DR000621" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-621"/>
+    <mapping drNumber="DR000622" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-621"/>
+    <mapping drNumber="DR000623" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-621"/>
+    <mapping drNumber="DR000624" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-624"/>
+    <mapping drNumber="DR000625" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-624"/>
+    <mapping drNumber="DR000626" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-626"/>
+    <mapping drNumber="DR000627" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-626"/>
+    <mapping drNumber="DR000628" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-628"/>
+    <mapping drNumber="DR000629" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-628"/>
+    <mapping drNumber="DR000630" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-630"/>
+    <mapping drNumber="DR000631" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-630"/>
+    <mapping drNumber="DR000632" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-630"/>
+    <mapping drNumber="DR000633" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-630"/>
+    <mapping drNumber="DR000634" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-630"/>
+    <mapping drNumber="DR000635" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-630"/>
+    <mapping drNumber="DR000636" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-636"/>
+    <mapping drNumber="DR000637" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-636"/>
+    <mapping drNumber="DR000638" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-636"/>
+    <mapping drNumber="DR000639" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-639"/>
+    <mapping drNumber="DR000640" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-639"/>
+    <mapping drNumber="DR000642"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-784"/>
+    <mapping drNumber="DR000643" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-643"/>
+    <mapping drNumber="DR000644" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-644"/>
+    <mapping drNumber="DR000645" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-645"/>
+    <mapping drNumber="DR000646" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-646"/>
+    <mapping drNumber="DR000647" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-647"/>
+    <mapping drNumber="DR000648" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-648"/>
+    <mapping drNumber="DR000649" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-649"/>
+    <mapping drNumber="DR000650" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-650"/>
+    <mapping drNumber="DR000651" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-651"/>
+    <mapping drNumber="DR000652" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-652"/>
+    <mapping drNumber="DR000653" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000654" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000655" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000656" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000657" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000658" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000659" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000660" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000661" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-653"/>
+    <mapping drNumber="DR000662" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-662"/>
+    <mapping drNumber="DR000663" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-663"/>
+    <mapping drNumber="DR000664" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-663"/>
+    <mapping drNumber="DR000665" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-663"/>
+    <mapping drNumber="DR000666" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-663"/>
+    <mapping drNumber="DR000667" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-663"/>
+    <mapping drNumber="DR000668" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-668"/>
+    <mapping drNumber="DR000669" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-669"/>
+    <mapping drNumber="DR000670"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-670"/>
+    <mapping drNumber="DR000671" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000672" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000673" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000674" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000675" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000676" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000677" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000678" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000679" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000680" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000681" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000682" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000683" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000684" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000685" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000686" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000687" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000688" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000689" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000690" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000691" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000692" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000693" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000694" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000695" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000696" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000697" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000698" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000699" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000700" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000701" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000702" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000703" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000704" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000705" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000706" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000707" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000708" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000709" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-671"/>
+    <mapping drNumber="DR000710" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-180"/>
+    <mapping drNumber="DR000711" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-711"/>
+    <mapping drNumber="DR000712" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-712"/>
+    <mapping drNumber="DR000713" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-713"/>
+    <mapping drNumber="DR000714" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-714"/>
+    <mapping drNumber="DR000715" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-715"/>
+    <mapping drNumber="DR000716" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-716"/>
+    <mapping drNumber="DR000717" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-717"/>
+    <mapping drNumber="DR000718" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-718"/>
+    <mapping drNumber="DR000719" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-719"/>
+    <mapping drNumber="DR000720" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-720"/>
+    <mapping drNumber="DR000721" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-720"/>
+    <mapping drNumber="DR000722" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-722"/>
+    <mapping drNumber="DR000723" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-722"/>
+    <mapping drNumber="DR000724" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-724"/>
+    <mapping drNumber="DR000725" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-724"/>
+    <mapping drNumber="DR000726" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-724"/>
+    <mapping drNumber="DR000727" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-724"/>
+    <mapping drNumber="DR000728" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-724"/>
+    <mapping drNumber="DR000730" queryString="collId=asr&amp;itemId=ASR-000-000-000-017"/>
+    <mapping drNumber="DR000731" queryString="collId=asr&amp;itemId=ASR-000-000-000-018"/>
+    <mapping drNumber="DR000732" queryString="collId=asr&amp;itemId=ASR-000-000-000-018"/>
+    <mapping drNumber="DR000733" queryString="collId=asr&amp;itemId=ASR-000-000-000-017"/>
+    <mapping drNumber="DR000734" queryString="collId=asr&amp;itemId=ASR-000-000-000-019"/>
+    <mapping drNumber="DR000735" queryString="collId=asr&amp;itemId=ASR-000-000-000-019"/>
+    <mapping drNumber="DR000736" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-736"/>
+    <mapping drNumber="DR000737" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-736"/>
+    <mapping drNumber="DR000738" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-736"/>
+    <mapping drNumber="DR000739" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-736"/>
+    <mapping drNumber="DR000740" queryString="collId=asr&amp;itemId=ASR-000-000-000-020"/>
+    <mapping drNumber="DR000741" queryString="collId=asr&amp;itemId=ASR-000-000-000-020"/>
+    <mapping drNumber="DR000742" queryString="collId=asr&amp;itemId=ASR-000-000-000-021"/>
+    <mapping drNumber="DR000743" queryString="collId=asr&amp;itemId=ASR-000-000-000-021"/>
+    <mapping drNumber="DR000744" queryString="collId=asr&amp;itemId=ASR-000-000-000-022"/>
+    <mapping drNumber="DR000745" queryString="collId=asr&amp;itemId=ASR-000-000-000-022"/>
+    <mapping drNumber="DR000746" queryString="collId=asr&amp;itemId=ASR-000-000-000-023"/>
+    <mapping drNumber="DR000747" queryString="collId=asr&amp;itemId=ASR-000-000-000-023"/>
+    <mapping drNumber="DR000748" queryString="collId=asr&amp;itemId=ASR-000-000-000-024"/>
+    <mapping drNumber="DR000749" queryString="collId=asr&amp;itemId=ASR-000-000-000-024"/>
+    <mapping drNumber="DR000750" queryString="collId=asr&amp;itemId=ASR-000-000-000-025"/>
+    <mapping drNumber="DR000751" queryString="collId=asr&amp;itemId=ASR-000-000-000-025"/>
+    <mapping drNumber="DR000752" queryString="collId=asr&amp;itemId=ASR-000-000-000-026"/>
+    <mapping drNumber="DR000753" queryString="collId=asr&amp;itemId=ASR-000-000-000-026"/>
+    <mapping drNumber="DR000754" queryString="collId=asr&amp;itemId=ASR-000-000-000-027"/>
+    <mapping drNumber="DR000755" queryString="collId=asr&amp;itemId=ASR-000-000-000-027"/>
+    <mapping drNumber="DR000756" queryString="collId=asr&amp;itemId=ASR-000-000-000-028"/>
+    <mapping drNumber="DR000757" queryString="collId=asr&amp;itemId=ASR-000-000-000-028"/>
+    <mapping drNumber="DR000758" queryString="collId=asr&amp;itemId=ASR-000-000-000-029"/>
+    <mapping drNumber="DR000759" queryString="collId=asr&amp;itemId=ASR-000-000-000-029"/>
+    <mapping drNumber="DR000760" queryString="collId=asr&amp;itemId=ASR-000-000-000-029"/>
+    <mapping drNumber="DR000761" queryString="collId=asr&amp;itemId=ASR-000-000-000-029"/>
+    <mapping drNumber="DR000762" queryString="collId=asr&amp;itemId=ASR-000-000-000-030"/>
+    <mapping drNumber="DR000763" queryString="collId=asr&amp;itemId=ASR-000-000-000-030"/>
+    <mapping drNumber="DR000764" queryString="collId=asr&amp;itemId=ASR-000-000-000-030"/>
+    <mapping drNumber="DR000765" queryString="collId=asr&amp;itemId=ASR-000-000-000-031"/>
+    <mapping drNumber="DR000766" queryString="collId=asr&amp;itemId=ASR-000-000-000-031"/>
+    <mapping drNumber="DR000767" queryString="collId=asr&amp;itemId=ASR-000-000-000-031"/>
+    <mapping drNumber="DR000768" queryString="collId=asr&amp;itemId=ASR-000-000-000-032"/>
+    <mapping drNumber="DR000769" queryString="collId=asr&amp;itemId=ASR-000-000-000-032"/>
+    <mapping drNumber="DR000770" queryString="collId=asr&amp;itemId=ASR-000-000-000-032"/>
+    <mapping drNumber="DR000771" queryString="collId=asr&amp;itemId=ASR-000-000-000-033"/>
+    <mapping drNumber="DR000772" queryString="collId=asr&amp;itemId=ASR-000-000-000-033"/>
+    <mapping drNumber="DR000773" queryString="collId=asr&amp;itemId=ASR-000-000-000-033"/>
+    <mapping drNumber="DR000776" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-776"/>
+    <mapping drNumber="DR000777" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-777"/>
+    <mapping drNumber="DR000784"
+        queryString="collId=monographs&amp;itemId=MONOGRAPH-000-000-000-784"/>
+    <mapping drNumber="DR000787" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-787"/>
+    <mapping drNumber="DR000789" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-789"/>
+    <mapping drNumber="DR000790" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-790"/>
+    <mapping drNumber="DR000791"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-791"/>
+    <mapping drNumber="DR000793"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-793"/>
+    <mapping drNumber="DR000794"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-794"/>
+    <mapping drNumber="DR000795"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-795"/>
+    <mapping drNumber="DR000796"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-796"/>
+    <mapping drNumber="DR000797"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-797"/>
+    <mapping drNumber="DR000798"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-798"/>
+    <mapping drNumber="DR000799"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-799"/>
+    <mapping drNumber="DR000800"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-800"/>
+    <mapping drNumber="DR000801"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-801"/>
+    <mapping drNumber="DR000802"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-802"/>
+    <mapping drNumber="DR000803"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-803"/>
+    <mapping drNumber="DR000804"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-804"/>
+    <mapping drNumber="DR000805"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-805"/>
+    <mapping drNumber="DR000806"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-806"/>
+    <mapping drNumber="DR000807"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-807"/>
+    <mapping drNumber="DR000808"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-808"/>
+    <mapping drNumber="DR000809"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-809"/>
+    <mapping drNumber="DR000811"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-811"/>
+    <mapping drNumber="DR000812"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-812"/>
+    <mapping drNumber="DR000813"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-813"/>
+    <mapping drNumber="DR000815"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-815"/>
+    <mapping drNumber="DR000817"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-817"/>
+    <mapping drNumber="DR000818"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-818"/>
+    <mapping drNumber="DR000819"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-819"/>
+    <mapping drNumber="DR000820"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-820"/>
+    <mapping drNumber="DR000821"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-821"/>
+    <mapping drNumber="DR000822" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-822"/>
+    <mapping drNumber="DR000823"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-823"/>
+    <mapping drNumber="DR000824"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-824"/>
+    <mapping drNumber="DR000825"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-825"/>
+    <mapping drNumber="DR000826"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-826"/>
+    <mapping drNumber="DR000827"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-827"/>
+    <mapping drNumber="DR000828"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-828"/>
+    <mapping drNumber="DR000829"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-829"/>
+    <mapping drNumber="DR000830"
+        queryString="collId=manuscripts&amp;itemId=MANUSCRIPT-000-000-000-830"/>
+    <mapping drNumber="DR000831" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-831"/>
+    <mapping drNumber="DR000832" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-832"/>
+    <mapping drNumber="DR000833" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-833"/>
+    <mapping drNumber="DR000834" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-834"/>
+    <mapping drNumber="DR000835" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-835"/>
+    <mapping drNumber="DR000836" queryString="collId=mesalab&amp;itemId=MLC-000-000-000-090"/>
+    <mapping drNumber="DR000837" queryString="collId=mesalab&amp;itemId=MLC-000-000-000-090"/>
+    <mapping drNumber="DR000838" queryString="collId=1259799112473&amp;itemId=HIST-000-000-000-003"/>
+    <mapping drNumber="DR000839" queryString="collId=1259799112473&amp;itemId=HIST-000-000-000-006"/>
+    <mapping drNumber="DR000841" queryString="collId=asr&amp;itemId=ASR-000-000-000-002"/>
+    <mapping drNumber="DR000842" queryString="collId=asr&amp;itemId=ASR-000-000-000-003"/>
+    <mapping drNumber="DR000843" queryString="collId=asr&amp;itemId=ASR-000-000-000-004"/>
+    <mapping drNumber="DR000844" queryString="collId=technotes&amp;itemId=TECH-NOTE-000-000-000-844"
+    />
+</accessionNumberMappings>
